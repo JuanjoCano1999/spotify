@@ -168,7 +168,11 @@ body.dark{
   display: flex;
   border: 1px solid red;
   height: 300px;
-  
+}
+
+.imagenCancion{
+  border-radius: 15px;
+  height: 150px;
 }
 
 .cancion1{
@@ -176,41 +180,63 @@ body.dark{
   border-radius: 15px;
   height: 250px;
   width: 172px;
-  border: 1px solid white;
+  /* border: 1px solid white;  */
+  background-color: rgba(0,0,0,.5);
   margin: 25px;
+  padding: 10px;
 }
 
 .cancion2{
+  overflow: hidden;
+  border-radius: 15px;
   height: 250px;
   width: 172px;
   border: 1px solid white;
   margin: 25px;
+  padding: 10px;
 }
 
 .cancion3{
+  overflow: hidden;
+  border-radius: 15px;
   height: 250px;
   width: 172px;
   border: 1px solid white;
   margin: 25px;
+  padding: 10px;
 }
 
 .cancion4{
+  overflow: hidden;
+  border-radius: 15px;
   height: 250px;
   width: 172px;
   border: 1px solid white;
   margin: 25px;
+  padding: 10px;
 }
 
 .cancion5{
+  overflow: hidden;
+  border-radius: 15px;
   height: 250px;
   width: 172px;
   border: 1px solid white;
   margin: 25px;
+  padding: 10px;
 }
 
 h2{
   cursor: pointer;
   color: white;
+}
+
+h3{
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
 }
 
 
