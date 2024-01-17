@@ -325,6 +325,7 @@ body.dark{
   background-color: rgba(0,0,0,.5);
   margin: 25px;
   padding: 10px;
+  
 }
 
 .cancion2{
@@ -415,9 +416,25 @@ body.dark{
   padding: 10px;
 }
 
+.container-links {
+  display: flex;
+  flex-direction: column;
+  padding: 0 2.5rem;
+  padding-top: 40%;
+  }
 
-
-
+.container-links-legal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  }
+    
+.container-links-legal a {
+  text-decoration: none;
+  color: #b3b3b3;
+  font-size: 1.2rem;
+  }
 
 h2{
   cursor: pointer;
@@ -589,6 +606,40 @@ p{
   line-height: normal;
   margin-right: 30px;
 }
+
+.transparent {
+  opacity: 0.9;
+}
+
+.btn-register {
+  color: #a7a7a7;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+
+.btn-full:hover {
+  transform: scale(1.04);
+}
+.btn-play {
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ed760;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  position: absolute;
+  top: 55%;
+  left: 52%;
+  transform: translate(50%, -50%);
+  cursor: pointer;
+}
+
+
 
 
 @media screen and (min-width: 760px){
