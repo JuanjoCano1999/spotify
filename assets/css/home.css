@@ -194,6 +194,7 @@
 a{
   color: var(--primary-color);
   text-decoration: none;
+  font-size:10px ;
 }
 
 img{
@@ -304,9 +305,13 @@ body.dark{
 }
 
 
+
 .listado{
   display: flex;
+  flex-direction: row;
+  gap: 1px;
   height: 300px;
+  
 }
 
 .imagenCancion{
@@ -314,69 +319,16 @@ body.dark{
   height: 150px;
 }
 
-.cancion1{
+.cancion{
   display: flex;
   flex-direction: column;
   gap: 10px;
   overflow: hidden;
-  border-radius: 15px;
+  border-radius: 10px;
   height: 250px;
   width: 172px;
   background-color: rgba(0,0,0,.5);
-  margin: 25px;
-  padding: 10px;
-  
-}
-
-.cancion2{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  overflow: hidden;
-  border-radius: 15px;
-  height: 250px;
-  width: 172px;
-  background-color: rgba(0,0,0,.5);
-  margin: 25px;
-  padding: 10px;
-}
-
-.cancion3{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  overflow: hidden;
-  border-radius: 15px;
-  height: 250px;
-  width: 172px;
-  background-color: rgba(0,0,0,.5);
-  margin: 25px;
-  padding: 10px;
-}
-
-.cancion4{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  overflow: hidden;
-  border-radius: 15px;
-  height: 250px;
-  width: 172px;
-  background-color: rgba(0,0,0,.5);
-  margin: 25px;
-  padding: 10px;
-}
-
-.cancion5{
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  overflow: hidden;
-  border-radius: 15px;
-  height: 250px;
-  width: 172px;
-  background-color: rgba(0,0,0,.5);
-  margin: 25px;
+  margin: 18px;
   padding: 10px;
 }
 
@@ -404,6 +356,10 @@ body.dark{
   padding: 10px;
 }
 
+h4{
+  color: #fff;
+}
+
 .links{
   display: flex;
   flex-direction: column;
@@ -429,6 +385,10 @@ body.dark{
   gap: 2rem;
   margin-bottom: 3rem;
   }
+
+  a{
+    font-size: 11px;
+  }
     
 .container-links-legal a {
   text-decoration: none;
@@ -452,6 +412,11 @@ h3{
 
 }
 
+
+.comments{
+  text-align: center;
+}
+
 @media screen and (min-width: 750px) {
   .card--proyect{
       display: grid;
@@ -466,6 +431,7 @@ i{
 
 p{
   margin: 0;
+  cursor: pointer;
 }
 
 
