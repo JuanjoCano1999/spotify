@@ -588,6 +588,15 @@ p{
 .btn-full:hover {
   transform: scale(1.04);
 }
+
+.list__button:hover{
+  transform: scale(1.04);
+}
+
+.podcast__button:hover{
+  transform: scale(1.04);
+}
+
 .btn-play {
   width: 5rem;
   height: 5rem;

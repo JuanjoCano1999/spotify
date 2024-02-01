@@ -22,7 +22,7 @@
     <div class="contenedor--main">
         <h1>Regístrate para <br> empezar a <br> escuchar <br> contenido</h1>
 
-        <form method="POST" id="form" onsubmit="return validarFormulario()" action="RegistrarSpotify.php">
+        <form method="POST" id="form" onsubmit="return validarFormulario()" action="registrarSpotify.php">
             <label for="nombre"><b>Nombre:</b></label>
             <input type="text" id="name" name="nombre" maxlength="60" placeholder="Nombre">
 

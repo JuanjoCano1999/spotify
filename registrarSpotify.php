@@ -19,6 +19,8 @@ if(isset($_POST['Enviar'])){
         $resultado = mysqli_query($conex, $consulta);
 
         if ($resultado) {
+            header("Location: home.html");
+            exit;
             ?>
             <h3>Tu registro se ha completado</h3>
             <?php

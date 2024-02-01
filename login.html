@@ -36,19 +36,19 @@
         </div>
     </div>
     <div class="dark"></div>
-    <form action="" id="form">
-            <label for="name"><b>Correo electrónico o nombre de usuario:</b></label>
-            <input type="text" id="email" name="name" minlength="4" maxlength="8" size="10"
-                placeholder="Correo electrónico o nombre de usuario"/>
-        
-            <label for="name"><b>Contraseña:</b></label>
-            <input type="text" id="pass" name="password" minlength="4" maxlength="8" size="10" placeholder="Contraseña" />
+    <form action="./home.html" id="form">
+        <label for="name"><b>Correo electrónico o nombre de usuario:</b></label>
+        <input type="text" id="email" name="name" minlength="4" maxlength="50" size="10"
+            placeholder="Correo electrónico o nombre de usuario" />
+
+        <label for="name"><b>Contraseña:</b></label>
+        <input type="text" id="pass" name="password" minlength="4" maxlength="50" size="10" placeholder="Contraseña" />
 
         <div class="remember"></div>
-    
-            <input type="submit" id="submit" value="Inicio sesion"/>
 
-            <span id="parrafo"></span>
+        <input type="submit" id="submit" value="Inicio sesion" />
+
+        <span id="parrafo"></span>
     </form>
 
     <div class="password">
@@ -58,10 +58,16 @@
     <div class="dark"></div>
 
     <div class="sign-up">
-        ¿No tienes cuenta?<a href="./register.php"><p>Suscribete a Spotify</p></a>
+        ¿No tienes cuenta?<a href="./register.php">
+            <p>Suscribete a Spotify</p>
+        </a>
     </div>
 
 </div>
 
+
+<script src="./assets/js/login.js"></script>
+
 </body>
+
 </html>
